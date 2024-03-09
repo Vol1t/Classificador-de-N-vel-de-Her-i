@@ -28,10 +28,12 @@ switch(true){
     case (xp > 9001 && xp <= 10000):
     nivelDoHeroi = "Imortal"
     break;
-    case (xp > 10001):
+    case (xp >= 10001):
     nivelDoHeroi = "Radiante"
+    break;
 
     default:
+
         nivelDoHeroi = "Nível indeterminado";
 }
 
